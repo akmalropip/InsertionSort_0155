@@ -59,3 +59,11 @@ void display(){
     }
     cout << endl;
 }
+
+int main()
+{
+    input();
+    insertionnsort();
+    display();
+    system("pause";)
+}
