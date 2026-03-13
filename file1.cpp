@@ -19,7 +19,7 @@ while (true){
 cout << endl;
 cout << "==========================================";
 cout << "==========Masukkan Element Array==========";
-cout << "==========================================";
+cout << "==========================================" << endl;
 
 for (int i = 0; i < n; i++ ){
     cout << "Data ke-" << (i+1) << ": ";
@@ -52,7 +52,7 @@ void display(){
     cout << endl;
     cout << "\n=============";
     cout << "\nElement Array" << endl;
-    cout << "\n=============";
+    cout << "\n=============" << endl;
 
     for(int j = 0; j < n; j++){
         cout << arr[j] << endl;
@@ -60,10 +60,9 @@ void display(){
     cout << endl;
 }
 
-int main()
-{
+int main(){
     input();
-    insertionnsort();
+    insertionsort();
     display();
-    system("pause";)
+    system("pause");
 }
